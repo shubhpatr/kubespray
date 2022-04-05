@@ -1,7 +1,9 @@
 ---
-- name: runc | set is_ostree
-  set_fact:
-    is_ostree: "{{ ostree.stat.exists }}"
+
+#- name: runc | set is_ostree
+#  set_fact:
+#    is_ostree: "{{ ostree.stat.exists }}"
+    
 
 - name: runc | Uninstall runc package managed by package manager
   package:
