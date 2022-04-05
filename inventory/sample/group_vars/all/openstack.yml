@@ -36,9 +36,9 @@
 ## Application credentials to authenticate against Keystone API
 ## Those settings will take precedence over username and password that might be set your environment
 ## All of them are required
-# external_openstack_application_credential_name:
-# external_openstack_application_credential_id:
-# external_openstack_application_credential_secret:
+external_openstack_application_credential_name: v3applicationcredential
+external_openstack_application_credential_id: 4f6c452bc2b9404798e9b1dda4e0ad96
+external_openstack_application_credential_secret: shubham123
 
 ## The tag of the external OpenStack Cloud Controller image
 # external_openstack_cloud_controller_image_tag: "latest"
